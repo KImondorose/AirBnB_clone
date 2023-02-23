@@ -13,6 +13,13 @@
     flex-basis: 90%;
 }
 
+.places h1 {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 15px;
+    flex-basis: 90%;
+}
+
 .places article {
     width: 390px;
     padding: 20px;
@@ -27,24 +34,26 @@
     align-content: space-between;
 }
 
-.places h2 {
+.article h2 {
     font-size: 30px;
     text-align: center;
     width: 75%;
     align-content: center;
+    padding-left: -1px;
 }
 
 .price_by_night {
     color: #FF5A5F;
-    border: #FF5A5F rounded 4px;
+    border: #FF5A5F solid 4px;
     min-width: 60px;
     height: 60px;
     font-size: 30px;
     border-radius: 50%;
     text-align: center;
-    width: 80px;
+    width: 85px;
     line-height: 70px;
     margin-bottom: 10px;
+    padding: 0%;
 }
 .information {
     height: 80px;
